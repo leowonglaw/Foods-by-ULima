@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "732150746673",
+    "firebase_url": "https://efwong-d5a9a.firebaseio.com",
+    "project_id": "efwong-d5a9a",
+    "storage_bucket": "efwong-d5a9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732150746673:android:8cc9bc0fd4e82665",
+        "android_client_info": {
+          "package_name": "com.wong.ef_wong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732150746673-a4hino7ab976mpsat8iihsnou2g0ctfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq7tmNo0r1uIb-xAIMAWLgu1MyHP9EUUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

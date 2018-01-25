@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:text="Usuario"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgUsuario"
+        android:layout_toRightOf="@+id/imgUsuario"
+        android:layout_toEndOf="@+id/imgUsuario"
+        android:layout_marginStart="10dp"
+        android:id="@+id/txtUsuario" />
+
+    <TextView
+        android:text="Hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtUsuario"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:id="@+id/txtHora" />
+
+    <TextView
+        android:text="Stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProducto"
+        android:layout_alignLeft="@+id/imgUsuario"
+        android:layout_alignStart="@+id/imgUsuario"
+        android:id="@+id/txtStock" />
+
+    <TextView
+        android:text="Cant comentarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCantComentarios"
+        android:layout_below="@+id/imgProducto"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="TipoProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtCantComentarios"
+        android:layout_alignRight="@+id/txtPrecioProducto"
+        android:layout_alignEnd="@+id/txtPrecioProducto"
+        android:id="@+id/tipoProducto" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/imgUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Nombre Producto"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombProducto"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_alignStart="@+id/txtUsuario" />
+
+    <TextView
+        android:text="Descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescProducto"
+        android:layout_below="@+id/txtNombProducto"
+        android:layout_alignStart="@+id/txtNombProducto" />
+
+    <TextView
+        android:text="Precio"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrecioProducto"
+        android:layout_above="@+id/imgProducto"
+        android:layout_alignEnd="@+id/txtHora" />
+
+    <ImageView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgProducto"
+        android:layout_below="@+id/txtDescProducto" />
+
+</RelativeLayout>
